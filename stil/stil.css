@@ -1,0 +1,18 @@
+body{font-family: Verdana, "Times New Roman", Times, serif; color:#fff; margin:0px; padding:0px; text-align:center; background:#FFF;font-weight:400; font-size:87%; /* tidligere 14px */line-height:1.7em; /* 24px/14 px*/}
+
+#dethele{width:79em; margin:0px auto; text-align:left; color:#000; background:#FFF}
+
+.vv{float:left;}
+.hh{float:right;}
+
+figure{width:33%;font-size:.8em;line-height:1.2em;font-family:arial, sans-serif}
+figure.hh{padding:10px 0 5px 10px;}
+figure.vv{padding:10px 12px 5px 0px;}
+figure.hh img, figure.vv img{border:1px solid #CCC;padding:2px}
+
+/* >> The Magnificent CLEARFIX << */
+.clearfix:after { content: "."; display: block; height: 0; clear: both; visibility: hidden}
+.clearfix { display: inline-block}
+* html .clearfix { height: 1%} 
+/* Hides from IE-mac \*/
+.clearfix { display: block}
