@@ -2,6 +2,8 @@ body{font-family: Verdana, "Times New Roman", Times, serif; color:#fff; margin:0
 
 #dethele{width:79em; margin:0px auto; text-align:left; color:#000; background:#FFF}
 
+.box{width:15%; margin:5%; padding: 1em}
+
 .vv{float:left;}
 .hh{float:right;}
 
