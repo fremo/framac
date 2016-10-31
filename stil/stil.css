@@ -42,8 +42,7 @@ footer.bunn div.hh{text-align: right;}
 .wrapper article 		{float: left; margin-bottom:2em;}
 .wrapper article header	{float: left; margin-bottom: 1em; width: 100%; font-size: 1.5em}
 .wrapper article p 		{float: left; margin-bottom: .6em}
-.wrapper article footer	{float: left; width: 80%; margin-left: 1em; font-size: .8em}
-.wrapper article a 		{font-size: 1.1em}
+.wrapper article footer	{float: left; width: 80%; margin-left: 1em; font-size: 1.1em}
 /*	--- --- --- --- --- --- --- --- --- ---	*/
 
 
@@ -53,7 +52,7 @@ footer.bunn div.hh{text-align: right;}
 #artikkel aside p{font-size: 1.2em; margin: 2em 1em;}
 /*	--- --- --- --- --- --- --- --- --- ---	*/
 
-.dato{float: left;}
+.dato{float: left;width: 100%; margin:-1em 0 1em 0;font-size: .9em}
 .vv, .senter{float:left;}
 .hh{float:right;}
 /* bildene::								*/
