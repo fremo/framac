@@ -13,7 +13,23 @@ font-size:87%; /* tidligere 14px */line-height:1.7em; /* 24px/14 px*/}
 header.topp{float: left; width: 100%; background-image: url("../pics/20.jpg"); background-size: 100%; height: 40em}
 footer.bunn{float: left; width: 100%; background-image: url("../pics/50.jpg"); background-size: 100%; background-position: bottom; height: 10em}
 
-/*	hele boksologien::						*/
+footer.bunn div { width: 30%; margin: 1em 10% 0; 
+/* Fallback for web browsers that doesn't support RGBa */
+background: rgb(102, 102, 102);
+/* RGBa with 0.6 opacity */
+background: rgba(102, 102, 102, 0.6);
+/* For IE 5.5 - 7*/
+filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
+/* For IE 8*/
+-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
+/* HERREGUD dett er hysterisk. 							*/
+/* https://robertnyman.com/2010/01/11/css-background-transparency-without-affecting-child-elements-through-rgba-and-filters/   */
+}
+footer.bunn div p{padding:1em;color:white; }
+footer.bunn div.hh{text-align: right;}
+
+
+/*	hele boksologien på forside::			*/
 .wrapper				{float: left}
 .wrapper .littrom		{margin: 1em}
 .dobbel					{width: 50%}
@@ -25,10 +41,13 @@ footer.bunn{float: left; width: 100%; background-image: url("../pics/50.jpg"); b
 .wrapper article footer	{float: left; width: 100%; font-size: .8em; text-align: right}
 /*	--- --- --- --- --- --- --- --- --- ---	*/
 
-#artikkel article{width: 80%; float: right;}
-#artikkel aside{width: 20%; float: left;}
 
-.txt{margin-bottom: 1em}
+/* artikkelsidene:: 						*/
+#artikkel article{width: 80%; float: right;}
+#artikkel aside{width: 20%; float: left; margin-top: 2em}
+#artikkel aside p{font-size: 1.2em; margin: 2em 1em;}
+/*	--- --- --- --- --- --- --- --- --- ---	*/
+
 
 .vv, .senter{float:left;}
 .hh{float:right;}
@@ -53,11 +72,11 @@ figure img{width: 100%}
 @media all and (max-width: 53em) {
 	.dobbel{width: 100%}
 	.enkel {width: 50%}
+	#artikkel article{width: 100%}
+	#artikkel aside{width:100%;}
 }
 @media all and (max-width: 43em) {
 	figure.vv, figure.hh{width: 50%}
-	#artikkel article{width: 100%}
-	#artikkel aside{width:100%;}
 }
 @media all and (max-width: 30em) {
 	.enkel {width: 100%}
@@ -66,3 +85,4 @@ figure img{width: 100%}
 
 }
 /*	--- --- --- --- --- --- --- --- --- ---	*/
+
