@@ -23,9 +23,8 @@ include("hodet.ink.php");
 	  Duis aute irure dolor in reprehenderit in voluptate velit esse
 	  cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 	  proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-	  <footer>
-	  	<a href="artikkel.html">les mer...</a>
-	  </footer>
+	  <br><br>
+	  <a href="artikkel.html">les mer...</a>
   </div></article>
 
   <article class="enkel"><div class="littrom">
@@ -93,7 +92,7 @@ include("hodet.ink.php");
 
 <article class="enkel"><div class="littrom">
 	 <header>
-	  	dette er FiFiFi
+	  	dette er eeeeeee
 	 </header>
 	  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 	  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -109,7 +108,7 @@ include("hodet.ink.php");
 
   <article class="dobbel"><div class="littrom">
 	 <header>
-	  	dette er EEeeeEeeEEE
+	  	dette er FfffFffFFFffffFFF
 	 </header>
 	  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 	  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
