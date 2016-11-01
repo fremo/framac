@@ -1,5 +1,5 @@
 <?php 
-include("hodet.php");
+include("hodet.ink.php");
 ?>
 
 <body id="forside">
