@@ -6,7 +6,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 					\fred					
 	--- --- --- --- --- --- --- --- 		*/
 
-body{font-family: Verdana, "Times New Roman", Times, serif; margin:0px; padding:0px; text-align:center; font-weight:400; 
+body{font-family: "Noto Sans", "Verdana", "Times New Roman", "Times", serif; margin:0px; padding:0px; text-align:center; font-weight:400; 
 font-size:87%; /* tidligere 14px */line-height:1.7em; /* 24px/14 px*/}
 #dethele{widxxth:79em; margin:0px auto; text-align:left; color:#000; background:#EEE}
 
