@@ -12,6 +12,7 @@ font-size:87%; /* tidligere 14px */line-height:1.7em; /* 24px/14 px*/}
 
 
 #hero{ background-image:url("../pics/20.jpg"); background-size:cover; position:relative; height:100vh;}
+#artikkel #hero{height: 50vh}
 #hero .header{position:absolute; top:50%; text-align:center; width:100%; color:#fff; font-size:2em; -ms-transform: translate(0,-50%); /* IE 9 */   -webkit-transform: translate(0,-50%); /* Safari */   transform: translate(0,-50%);  }
 
 footer.bunn{float: left; width: 100%; background-image: url("../pics/50.jpg"); background-size: 100%; background-position: bottom; height: 10em}
