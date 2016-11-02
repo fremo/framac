@@ -9,10 +9,9 @@ include("hodet.ink.php");
 
   <article class="dobbel"><div class="littrom">
 	 <header>
-
 	  	dette er AAA-tester-fra JobbPC !!
 	  </header>
-	  <div class="dato">fredm - 20160823</div>
+	  <div class="dato">fredm - 2010-03-06</div>
 	  <p><figure class="hh"><img src="./pics/mini01.jpg"></figure> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 	  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 	  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -26,10 +25,9 @@ include("hodet.ink.php");
 
   <article class="enkel"><div class="littrom">
   	  <header>
-
- 	dette er BB
-  	 </header>
-  	 	
+ 		dette er BB
+	  </header>
+	  <div class="dato">fredm - 2014-05-23</div>  	 	
 	  <p>Lorem ipsum dolor sit amet, <a href="artikkel.php">consectetur adipisicing</a> elit, sed do eiusmod
 	  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 	  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -42,7 +40,8 @@ include("hodet.ink.php");
   <article class="enkel"><div class="littrom">
 	 <header>
 	  	dette er CCCC
-	 </header>
+	  </header>
+	  <div class="dato">fredm - 2013-09-21</div>
 	  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 	  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 	  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -57,7 +56,8 @@ include("hodet.ink.php");
   <article class="enkel"><div class="littrom">
 	 <header>
 	  	dette er ddDDddX
-	 </header>
+	  </header>
+	  <div class="dato">fredm - 2013-05-13</div>
 	  <p><figure class="senter"><img src="./pics/mini02.jpg"><br>dette er parken.</figure>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 	  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 	  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -72,7 +72,8 @@ include("hodet.ink.php");
 <article class="enkel"><div class="littrom">
 	 <header>
 	  	dette er eeeeeee
-	 </header>
+	  </header>
+	  <div class="dato">fredm - 2010-05-14</div>
 	  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 	  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 	  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -87,7 +88,8 @@ include("hodet.ink.php");
   <article class="dobbel"><div class="littrom">
 	 <header>
 	  	dette er FfffFffFFFffffFFF
-	 </header>
+	  </header>
+	  <div class="dato">fredm - 2010-03-24</div>
 	  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 	  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 	  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
