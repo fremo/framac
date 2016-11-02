@@ -10,15 +10,11 @@ body{font-family: "Noto Sans", "Verdana", "Times New Roman", "Times", serif; mar
 font-size:87%; /* tidligere 14px */line-height:1.7em; /* 24px/14 px*/}
 #dethele{widxxth:79em; margin:0px auto; text-align:left; color:#000; background:#EEE}
 
-header.topp{float: left; width: 100%; background-image: url("../pics/20.jpg"); background-size: 100%; height: 100%}
-footer.bunn{float: left; width: 100%; background-image: url("../pics/50.jpg"); background-size: 100%; background-position: bottom; height: 10em}
 
 #hero{ background-image:url("../pics/20.jpg"); background-size:cover; position:relative; height:100vh;}
+#hero .header{position:absolute; top:50%; text-align:center; width:100%; color:#fff; font-size:2em; -ms-transform: translate(0,-50%); /* IE 9 */   -webkit-transform: translate(0,-50%); /* Safari */   transform: translate(0,-50%);  }
 
-#hero .header{position:absolute; top:50%; text-align:center; width:100%; color:#fff; font-size:36px; -ms-transform: translate(0,-50%); /* IE 9 */   -webkit-transform: translate(0,-50%); /* Safari */   transform: translate(0,-50%);  }
-
-
-
+footer.bunn{float: left; width: 100%; background-image: url("../pics/50.jpg"); background-size: 100%; background-position: bottom; height: 10em}
 footer.bunn div { width: 30%; margin: 1em 10% 0; 
 -moz-border-radius: 15px;
 -webkit-border-radius: 15px;
@@ -37,6 +33,7 @@ filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endCo
 }
 footer.bunn div p{padding:1em;color:white; }
 footer.bunn div.hh{text-align: right;}
+
 
 
 /*	hele boksologien på forside::			*/

@@ -53,6 +53,6 @@
 
 <div id="hero">
     <div class="header">
-      <h1> overdalsveieen.com </h1>
+      <h1> overdalsveien.com </h1>
     </div>
   </div>
