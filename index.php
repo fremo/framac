@@ -13,7 +13,7 @@ include("hodet.ink.php");
   <article class="dobbel"><div class="littrom">
 	 <header>
 
-	  	dette er AAA
+	  	dette er AAA-tester
 	  </header>
 	  <div class="dato">fredm - 20160823</div>
 	  <p><figure class="hh"><img src="./pics/mini01.jpg"></figure> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
