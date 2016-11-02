@@ -53,6 +53,14 @@
 
 <div id="hero">
     <div class="header">
-      <h1> overdalsveien.com </h1>
+      <h1>
+<?php 
+if ($bodynavn == "forside") {
+	echo "overdalsveien.com";
+} else {
+	echo "dette er noe annet";
+}
+?>      
+      </h1>
     </div>
   </div>
