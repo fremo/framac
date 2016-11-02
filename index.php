@@ -40,11 +40,8 @@ include("hodet.ink.php");
 	  <div class="vv">
 	  		<a href="artikkel.html">les mer...</a>
  	  </div>
-	  <footer>
-	  	<div class="hh">
-	  		fredM - 20161021
-	  	</div>
-	  </footer>
+	  <br><br>
+	  <a href="artikkel.html">les mer...</a>
   </div></article>
 
 
@@ -62,11 +59,8 @@ include("hodet.ink.php");
 	  <div class="vv">
 	  		<a href="artikkel.html">les mer...</a>
  	  </div>
-	  <footer>
-	  	<div class="hh">
-	  		fredM - 20161021
-	  	</div>
-	  </footer>
+	  	  <br><br>
+	  <a href="artikkel.html">les mer...</a>
   </div></article>
   
   <article class="enkel"><div class="littrom">
@@ -83,11 +77,8 @@ include("hodet.ink.php");
 	  <div class="vv">
 	  		<a href="artikkel.html">les mer...</a>
  	  </div>
-	  <footer>
-	  	<div class="hh">
-	  		fredM - 20161021
-	  	</div>
-	  </footer>
+	  	  <br><br>
+	  <a href="artikkel.html">les mer...</a>
   </div></article>
 
 <article class="enkel"><div class="littrom">
@@ -101,9 +92,8 @@ include("hodet.ink.php");
 	  <p>Duis aute irure dolor in reprehenderit in voluptate velit esse
 	  cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 	  proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-	  <footer>
-	  	fredM - 20161021
-	  </footer>
+	  	  <br><br>
+	  <a href="artikkel.html">les mer...</a>
   </div></article>
 
   <article class="dobbel"><div class="littrom">
@@ -117,9 +107,8 @@ include("hodet.ink.php");
 	  <p>Duis aute irure dolor in reprehenderit in voluptate velit esse
 	  cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 	  proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-	  <footer>
-	  	fredM - 20161021
-	  </footer>
+	  	  <br><br>
+	  <a href="artikkel.html">les mer...</a>
   </div></article>
 
 </div>
