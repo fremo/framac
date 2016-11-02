@@ -45,3 +45,13 @@
 		})();
 	</script>
 </head>
+
+
+<body id="<?php echo $bodynavn ?>">
+<div id="dethele" class="clearfix">
+
+<div id="hero">
+    <div class="header">
+      <h1> Fullscreen Hero image </h1>
+    </div>
+  </div>

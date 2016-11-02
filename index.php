@@ -1,12 +1,9 @@
+
 <?php 
+$bodynavn = "forside";
+
 include("hodet.ink.php");
 ?>
-
-<body id="forside">
-
-<div id="dethele" class="clearfix">
-
-<header class="topp"><div class="littrom">a</div></header>
 
 <div class="wrapper clearfix">
 
@@ -24,7 +21,7 @@ include("hodet.ink.php");
 	  cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 	  proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 	  <br><br>
-	  <a href="artikkel.html">les mer...</a>
+	  <a href="artikkel.php">les mer...</a>
   </div></article>
 
   <article class="enkel"><div class="littrom">
@@ -33,12 +30,12 @@ include("hodet.ink.php");
  	dette er BB
   	 </header>
   	 	
-	  <p>Lorem ipsum dolor sit amet, <a href="artikkel.html">consectetur adipisicing</a> elit, sed do eiusmod
+	  <p>Lorem ipsum dolor sit amet, <a href="artikkel.php">consectetur adipisicing</a> elit, sed do eiusmod
 	  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 	  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 	  consequat. </p>
 	  ><br>
-	  <a href="artikkel.html">les mer...</a>
+	  <a href="artikkel.php">les mer...</a>
   </div></article>
 
 
@@ -54,7 +51,7 @@ include("hodet.ink.php");
 	  cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 	  proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 	  <br><br>
-	  <a href="artikkel.html">les mer...</a>
+	  <a href="artikkel.php">les mer...</a>
   </div></article>
   
   <article class="enkel"><div class="littrom">
@@ -69,7 +66,7 @@ include("hodet.ink.php");
 	  cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 	  proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 	  <br><br>
-	  <a href="artikkel.html">les mer...</a>
+	  <a href="artikkel.php">les mer...</a>
   </div></article>
 
 <article class="enkel"><div class="littrom">
@@ -84,7 +81,7 @@ include("hodet.ink.php");
 	  cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 	  proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 	  	  <br><br>
-	  <a href="artikkel.html">les mer...</a>
+	  <a href="artikkel.php">les mer...</a>
   </div></article>
 
   <article class="dobbel"><div class="littrom">
@@ -99,7 +96,7 @@ include("hodet.ink.php");
 	  cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 	  proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 	  	  <br><br>
-	  <a href="artikkel.html">les mer...</a>
+	  <a href="artikkel.php">les mer...</a>
   </div></article>
 
 </div>
