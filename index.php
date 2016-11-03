@@ -25,7 +25,7 @@ include("hodet.ink.php");
 
   <article class="enkel"><div class="littrom">
   	  <header>
- 		dette er BB
+ 		dette er BB - fjernet tegn
 	  </header>
 	  <div class="dato">fredm - 2014-05-23</div>  	 	
 	  <p>Lorem ipsum dolor sit amet, <a href="artikkel.php">consectetur adipisicing</a> elit, sed do eiusmod
