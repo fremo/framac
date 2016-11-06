@@ -9,4 +9,4 @@ Who knows. It has to be real simple. REAL simple.
 (og nå skal også JobbPC inkluderes i det gode selskapet.....)
 
 
-\fred
+\fredM
