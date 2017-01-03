@@ -94,3 +94,8 @@ figure img{width: 100%}
 }
 /*	--- --- --- --- --- --- --- --- --- ---	*/
 
+
+
+/*	Isotope::								*/
+.grid-item { width: 25%; }
+.grid-item--width2 { width: 50%; }

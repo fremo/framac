@@ -104,6 +104,11 @@ include("hodet.ink.php");
 </div>
 
 
+<!-- Isotope does NOT require jQuery. But it does make things easier -->
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+<script>window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')</script>
+<script src="js/isotope-docs.min.js?3"></script>
+
 <?php 
 include("fotter.ink.php");
 ?>
