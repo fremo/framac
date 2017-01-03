@@ -24,12 +24,6 @@ if (($underkat < $mini) OR ($underkat > $maxi)) {
 }
 
 
-if ($art_nr > 1) {
-	$og_artikkel = "&amp;id=$art_nr";
-} else {
-	$og_artikkel = "";
-}
-
 $rod_liste = array();
 $teller    = 0;
 $sql_retrive    = mysql_query("
@@ -55,7 +49,7 @@ while ($row = mysql_fetch_array($sql_retrive, MYSQL_ASSOC)) {
         $id             = $row["id"];
         $beskrivelse    = $row["navn"];
 
-        print "<li><a href=\"&#63;lnk=$id$og_artikkel\">$beskrivelse</a></li>";
+        print "<li><a href=\"&#63;lnk=$id\">$beskrivelse</a></li>";
 	$rod_liste[$teller] = $id;$teller++;
 }
 
