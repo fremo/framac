@@ -23,7 +23,7 @@ include("hodet.ink.php");
 	  <a href="artikkel.php">les mer...</a>
   </div></article>
 
-  <article class="dobbel"><div class="littrom">
+  <article class="enkel"><div class="littrom">
   	  <header>
  		dette er BB - fjernet tegn - nå dobbel
 	  </header>
