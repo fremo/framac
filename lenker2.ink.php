@@ -3,28 +3,13 @@
 
 <?php
 
-$underkat = $_GET['lnk'];
-include "../.../db.ink.php";
+include "../../db.ink.php";
 
-/*
-$idag	= date ("Y-m-d", mktime (0,0,0,date("m"),date("d"),date("Y")));
-
-$finn_minmax 	= "select max(liste_a_id) MAX, min(liste_a_id) MIN from liste_ab";
-$result 	= mysql_query($finn_minmax);
-$row       	= mysql_fetch_assoc($result);
-$mini 		= $row["MIN"];
-$maxi		= $row["MAX"];
-$kake		=  $_COOKIE["UnderKat"];
-
-if (($underkat < $mini) OR ($underkat > $maxi)) {
-	// hent cookie
-	$underkat = $kake;
+if ($art_nr > 1) {
+	$og_artikkel = "&amp;id=$art_nr";
 } else {
-	if ($underkat <> $kake) {
-		setcookie("UnderKat", $underkat, time()+10800);
-	}
+	$og_artikkel = "";
 }
-*/
 
 $rod_liste = array();
 $teller    = 0;
@@ -44,7 +29,6 @@ order by
 ");
 ?>
 <article class="enkel"><div class="littrom">
-	<h2><?php echo $underkat ?></h2>
 	<ul>
 <?php
 // ..............................................................................
@@ -52,7 +36,7 @@ while ($row = mysql_fetch_array($sql_retrive, MYSQL_ASSOC)) {
         $id             = $row["id"];
         $beskrivelse    = $row["navn"];
 
-        print "<li><a href=\"&#63;lnk=$id\">$beskrivelse</a></li>";
+        print "<li><a href=\"&#63;lnk=$id$og_artikkel\">$beskrivelse</a></li>";
 	$rod_liste[$teller] = $id;$teller++;
 }
 
