@@ -23,9 +23,9 @@ include("hodet.ink.php");
 	  <a href="artikkel.php">les mer...</a>
   </div></article>
 
-  <article class="enkel"><div class="littrom">
+  <article class="dobbel"><div class="littrom">
   	  <header>
- 		dette er BB - fjernet tegn
+ 		dette er BB - fjernet tegn - nå dobbel
 	  </header>
 	  <div class="dato">fredm - 2014-05-23</div>  	 	
 	  <p>Lorem ipsum dolor sit amet, <a href="artikkel.php">consectetur adipisicing</a> elit, sed do eiusmod
