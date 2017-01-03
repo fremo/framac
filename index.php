@@ -53,6 +53,8 @@ include("hodet.ink.php");
 	  <a href="artikkel.php">les mer...</a>
   </div></article>
   
+  <div class="clearfix">&nbsp;</div>
+
   <article class="enkel"><div class="littrom">
 	 <header>
 	  	dette er ddDDddX
