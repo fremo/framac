@@ -28,7 +28,7 @@ include("hodet.ink.php");
  		dette er BB - fjernet tegn - nå dobbel
 	  </header>
 	  <div class="dato">fredm - 2014-05-23</div>  	 	
-	  <?php include"../../lenker2.ink.php"; ?>
+	  <?php include"lenker2.ink.php"; ?>
 	  <br>
 	  <a href="artikkel.php">les mer...</a>
   </div></article>
