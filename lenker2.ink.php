@@ -5,6 +5,8 @@
 
 $underkat = $_GET['lnk'];
 include "db.ink.php";
+
+/*
 $idag	= date ("Y-m-d", mktime (0,0,0,date("m"),date("d"),date("Y")));
 
 $finn_minmax 	= "select max(liste_a_id) MAX, min(liste_a_id) MIN from liste_ab";
@@ -22,7 +24,7 @@ if (($underkat < $mini) OR ($underkat > $maxi)) {
 		setcookie("UnderKat", $underkat, time()+10800);
 	}
 }
-
+*/
 
 $rod_liste = array();
 $teller    = 0;
@@ -42,6 +44,7 @@ order by
 ");
 ?>
 <article class="enkel"><div class="littrom">
+	<h2><?php echo $underkat ?></h2>
 	<ul>
 <?php
 // ..............................................................................
