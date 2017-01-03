@@ -28,10 +28,7 @@ include("hodet.ink.php");
  		dette er BB - fjernet tegn - nå dobbel
 	  </header>
 	  <div class="dato">fredm - 2014-05-23</div>  	 	
-	  <p>Lorem ipsum dolor sit amet, <a href="artikkel.php">consectetur adipisicing</a> elit, sed do eiusmod
-	  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-	  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-	  consequat. </p>
+	  <?php include"../../lenker2.ink.php"; ?>
 	  <br>
 	  <a href="artikkel.php">les mer...</a>
   </div></article>
