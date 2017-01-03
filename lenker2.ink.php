@@ -4,7 +4,7 @@
 <?php
 
 $underkat = $_GET['lnk'];
-include "db.ink.php";
+include "../.../db.ink.php";
 
 /*
 $idag	= date ("Y-m-d", mktime (0,0,0,date("m"),date("d"),date("Y")));
