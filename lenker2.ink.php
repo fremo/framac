@@ -5,6 +5,28 @@
 
 include "../../db.ink.php";
 
+$underkat = $_GET['lnk'];
+
+$idag	= date ("Y-m-d", mktime (0,0,0,date("m"),date("d"),date("Y")));
+
+$finn_minmax 	= "select max(liste_a_id) MAX, min(liste_a_id) MIN from liste_ab";
+$result 	= mysql_query($finn_minmax);
+$row       	= mysql_fetch_assoc($result);
+$mini 		= $row["MIN"];
+$maxi		= $row["MAX"];
+$kake		=  $_COOKIE["UnderKat"];
+
+if (($underkat < $mini) OR ($underkat > $maxi)) {
+	// hent cookie
+	$underkat = $kake;
+} else {
+	if ($underkat <> $kake) {
+		setcookie("UnderKat", $underkat, time()+10800);
+	}
+}
+
+
+
 if ($art_nr > 1) {
 	$og_artikkel = "&amp;id=$art_nr";
 } else {
