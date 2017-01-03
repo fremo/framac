@@ -1,5 +1,6 @@
-	<div class="del">
-			<ul class="rod">
+
+
+
 <?php
 
 include "../../db.ink.php";
@@ -26,7 +27,10 @@ group by
 order by 
 	a.rangering
 ");
-
+?>
+<article class="enkel"><div class="littrom">
+	<ul>
+<?php
 // ..............................................................................
 while ($row = mysql_fetch_array($sql_retrive, MYSQL_ASSOC)) {
         $id             = $row["id"];
@@ -36,14 +40,12 @@ while ($row = mysql_fetch_array($sql_retrive, MYSQL_ASSOC)) {
 	$rod_liste[$teller] = $id;$teller++;
 }
 
-?>
+?>		
+	</ul>
+</div></article>
 
-			</ul>
-		</div>
-	
-		<div class="del">
-			<ul class="blaa">
-
+<article class="enkel"><div class="littrom">
+	<ul>
 <?php
 if (in_array($underkat, $rod_liste)) {} else {$underkat = 296;}
 
@@ -72,7 +74,6 @@ while ($row = mysql_fetch_array($sql_retrive, MYSQL_ASSOC)) {
 }
 // ..............................................................................
 ?>
-			</ul>
-		</div>
-
-	
+?>		
+	</ul>
+</div></article>
