@@ -5,9 +5,9 @@ $bodynavn = "forside";
 include("hodet.ink.php");
 ?>
 
-<div class="wrapper clearfix grid">
+<div class="wrapper clearfix">
 
-  <article class="dobbel grid-item"><div class="littrom">
+  <article class="dobbel"><div class="littrom">
 	 <header>
 	  	dette er AAA-tester-fra JobbPC !!
 	  </header>
@@ -23,7 +23,7 @@ include("hodet.ink.php");
 	  <a href="artikkel.php">les mer...</a>
   </div></article>
 
-  <article class="dobbel grid-item"><div class="littrom">
+  <article class="dobbel"><div class="littrom">
   	  <header>
  		dette er BB - fjernet tegn - nå dobbel
 	  </header>
@@ -37,7 +37,7 @@ include("hodet.ink.php");
   </div></article>
 
 
-  <article class="enkel grid-item"><div class="littrom">
+  <article class="enkel"><div class="littrom">
 	 <header>
 	  	dette er CCCC
 	  </header>
@@ -53,7 +53,7 @@ include("hodet.ink.php");
 	  <a href="artikkel.php">les mer...</a>
   </div></article>
   
-  <article class="enkel grid-item"><div class="littrom">
+  <article class="enkel"><div class="littrom">
 	 <header>
 	  	dette er ddDDddX
 	  </header>
@@ -69,7 +69,7 @@ include("hodet.ink.php");
 	  <a href="artikkel.php">les mer...</a>
   </div></article>
 
-  <article class="enkel grid-item"><div class="littrom">
+  <article class="enkel"><div class="littrom">
 	 <header>
 	  	dette er eeeeeee
 	  </header>
@@ -85,7 +85,7 @@ include("hodet.ink.php");
 	  <a href="artikkel.php">les mer...</a>
   </div></article>
 
-  <article class="dobbel grid-item"><div class="littrom">
+  <article class="dobbel"><div class="littrom">
 	 <header>
 	  	dette er FfffFffFFFffffFFF
 	  </header>
@@ -104,15 +104,6 @@ include("hodet.ink.php");
 </div>
 
 
-
-<script src="js/isotope-docs.min.js?3"></script>
-<script>
-	$('.grid').isotope({
-  // options
-  itemSelector: '.grid-item',
-  layoutMode: 'fitRows'
-});
-</script>
 <?php 
 include("fotter.ink.php");
 ?>
