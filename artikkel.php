@@ -10,7 +10,7 @@ include("hodet.ink.php");
 
 	  	dette er AAA
 	  </header>
-	  <div class="dato">fredm - 20160823</div>
+	  <div class="dato">fredm - 20170103</div>
 			<p>
 				<figure class="hh"><img src="./pics/mini01.jpg"></figure> 
 				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
