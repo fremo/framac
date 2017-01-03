@@ -5,7 +5,7 @@ $bodynavn = "forside";
 include("hodet.ink.php");
 ?>
 
-<div class="wrapper clearfix grid" data-masonry='{ "itemSelector": ".grid-item", "columnWidth": 200 }'>
+<div class="wrapper clearfix grid">
 
   <article class="grid-item dobbel"><div class="littrom">
 	 <header>
@@ -103,7 +103,7 @@ include("hodet.ink.php");
 
 </div>
 
-<script src="js/masonry.pkgd.min.js"></script>
+
 <?php 
 include("fotter.ink.php");
 ?>
