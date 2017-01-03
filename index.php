@@ -7,7 +7,7 @@ include("hodet.ink.php");
 
 <div class="wrapper clearfix grid">
 
-  <article class="grid-item dobbel"><div class="littrom">
+  <article class="dobbel grid-item"><div class="littrom">
 	 <header>
 	  	dette er AAA-tester-fra JobbPC !!
 	  </header>
@@ -23,7 +23,7 @@ include("hodet.ink.php");
 	  <a href="artikkel.php">les mer...</a>
   </div></article>
 
-  <article class="grid-item dobbel"><div class="littrom">
+  <article class="dobbel grid-item"><div class="littrom">
   	  <header>
  		dette er BB - fjernet tegn - nå dobbel
 	  </header>
@@ -37,7 +37,7 @@ include("hodet.ink.php");
   </div></article>
 
 
-  <article class="grid-item enkel"><div class="littrom">
+  <article class="enkel grid-item"><div class="littrom">
 	 <header>
 	  	dette er CCCC
 	  </header>
@@ -53,7 +53,7 @@ include("hodet.ink.php");
 	  <a href="artikkel.php">les mer...</a>
   </div></article>
   
-  <article class="grid-item enkel"><div class="littrom">
+  <article class="enkel grid-item"><div class="littrom">
 	 <header>
 	  	dette er ddDDddX
 	  </header>
@@ -69,7 +69,7 @@ include("hodet.ink.php");
 	  <a href="artikkel.php">les mer...</a>
   </div></article>
 
-  <article class="grid-item enkel"><div class="littrom">
+  <article class="enkel grid-item"><div class="littrom">
 	 <header>
 	  	dette er eeeeeee
 	  </header>
@@ -85,7 +85,7 @@ include("hodet.ink.php");
 	  <a href="artikkel.php">les mer...</a>
   </div></article>
 
-  <article class="grid-item dobbel"><div class="littrom">
+  <article class="dobbel grid-item"><div class="littrom">
 	 <header>
 	  	dette er FfffFffFFFffffFFF
 	  </header>
@@ -104,9 +104,7 @@ include("hodet.ink.php");
 </div>
 
 
-<!-- Isotope does NOT require jQuery. But it does make things easier -->
-<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
-<script>window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')</script>
+
 <script src="js/isotope-docs.min.js?3"></script>
 <script>
 	$('.grid').isotope({
